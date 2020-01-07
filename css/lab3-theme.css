@@ -33,7 +33,9 @@ body,html{
 .paralsec {
     background-image: url("../images/Nes_control.jpg");
     background-attachment: fixed;
-    }
+    background-size: contain;
+      
+}
     
     .paralsec1 {
     background-image: url("../images/about_me.jpeg");
