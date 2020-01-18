@@ -17,7 +17,6 @@ body,html{
     font-size: 12px;
     color:#f5f5f5;
     text-align: center;
-    line-height: 60px;
     }
     
     /* Heading for Parallax Section */ 
@@ -29,11 +28,17 @@ body,html{
     line-height: 100px;
     }
 
+    .mb-0{
+        margin-bottom: 0 !important;
+    }
+
     /* Image for Parallax Section */ 
 .paralsec {
     background-image: url("../images/Nes_control.jpg");
     background-attachment: fixed;
     background-size: contain;
+    background-size: cover ;
+    background-repeat: no-repeat;
       
 }
     
@@ -41,20 +46,23 @@ body,html{
     background-image: url("../images/about_me.jpeg");
     background-attachment: fixed;
     background-size: contain;
+    background-size: cover ;
+    background-repeat: no-repeat;
     }
     
     .paralsec2 {
     background-image: url("../images/digi-earth.jpg");
     background-attachment: fixed;
     background-size: contain;
+    background-size: cover ;
+    background-repeat: no-repeat;
         
 }
 
-
-    
-    /* Remove Bottom Margin from Jumbotron */
+  /* Remove Bottom Margin from Jumbotron */
 .jumbortron{margin-top: 0px;}   
-    /* Footer */
+  
+/* Footer */
 .wn-footer {
     padding: 2.5rem 0;
     text-align: center;
