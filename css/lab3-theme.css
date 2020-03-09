@@ -34,7 +34,7 @@ body,html{
 
     /* Image for Parallax Section */ 
 .paralsec {
-    background-image: url("../images/Nes_control.jpg");
+    background-image: url("../images/home_port.jfif");
     background-attachment: fixed;
     background-size: contain;
     background-size: cover ;
