@@ -1,15 +1,13 @@
-body,html{
-    height: 100%;
-    margin: 0;
-    position: relative;
-    
-}
 
+img {
+width: 50%;
+}
 /* Header Parallax Element Style*/ 
 .paral {
     background-attachment: fixed;
     background-size: cover;
     background-position: 50% 50%;
+    
    }
   
 /* Paragraph for Parallax Section */ 
